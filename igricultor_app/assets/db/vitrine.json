@@ -1,0 +1,224 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Feirinha",
+			"products": [
+				{
+					"id": 1,
+					"name": "Feijão",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 2,
+					"name": "Arroz",
+					"price": "R$ 2,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Soja",
+					"price": "R$ 3,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Maçã",
+					"price": "R$ 8,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Banana",
+					"price": "R$ 5,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Milho",
+					"price": "R$ 2,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Alface",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "2",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Tomate",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Cenoura",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Cebola",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Azeitona",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Cebola",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "R$ 17,00"
+				},
+				{
+					"id": 3,
+					"name": "Azeitona",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "R$ 17,00"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "Atacado",
+			"products": [
+				{
+					"id": 1,
+					"name": "Feijão",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "A combinar"
+				},
+				{
+					"id": 2,
+					"name": "Arroz",
+					"price": "R$ 2,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Soja",
+					"price": "R$ 3,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Maçã",
+					"price": "R$ 8,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Banana",
+					"price": "R$ 5,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Milho",
+					"price": "R$ 2,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Alface",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "2",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Tomate",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Cenoura",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Cebola",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "3",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Azeitona",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Cebola",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "4",
+					"frete": "A combinar"
+				},
+				{
+					"id": 3,
+					"name": "Azeitona",
+					"price": "R$ 1,00",
+					"weight": "1 Kg",
+					"nota": "5",
+					"frete": "A combinar"
+				}
+			]
+		}
+	]
+}
