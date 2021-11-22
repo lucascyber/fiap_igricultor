@@ -9,7 +9,7 @@
 					"name": "Feijão",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -17,7 +17,7 @@
 					"name": "Arroz",
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -25,7 +25,7 @@
 					"name": "Soja",
 					"price": "R$ 3,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -33,7 +33,7 @@
 					"name": "Maçã",
 					"price": "R$ 8,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -41,7 +41,7 @@
 					"name": "Banana",
 					"price": "R$ 5,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -49,7 +49,7 @@
 					"name": "Milho",
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -57,7 +57,7 @@
 					"name": "Alface",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "2",
+					"nota": 2,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -65,7 +65,7 @@
 					"name": "Tomate",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -73,7 +73,7 @@
 					"name": "Cenoura",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -81,7 +81,7 @@
 					"name": "Cebola",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -89,7 +89,7 @@
 					"name": "Azeitona",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -97,7 +97,7 @@
 					"name": "Cebola",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "R$ 17,00"
 				},
 				{
@@ -105,7 +105,7 @@
 					"name": "Azeitona",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "R$ 17,00"
 				}
 			]
@@ -119,7 +119,7 @@
 					"name": "Feijão",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "A combinar"
 				},
 				{
@@ -127,7 +127,7 @@
 					"name": "Arroz",
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				},
 				{
@@ -135,7 +135,7 @@
 					"name": "Soja",
 					"price": "R$ 3,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "A combinar"
 				},
 				{
@@ -143,7 +143,7 @@
 					"name": "Maçã",
 					"price": "R$ 8,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				},
 				{
@@ -151,7 +151,7 @@
 					"name": "Banana",
 					"price": "R$ 5,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "A combinar"
 				},
 				{
@@ -159,7 +159,7 @@
 					"name": "Milho",
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "A combinar"
 				},
 				{
@@ -167,7 +167,7 @@
 					"name": "Alface",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "2",
+					"nota": 2,
 					"frete": "A combinar"
 				},
 				{
@@ -175,7 +175,7 @@
 					"name": "Tomate",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				},
 				{
@@ -183,7 +183,7 @@
 					"name": "Cenoura",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				},
 				{
@@ -191,7 +191,7 @@
 					"name": "Cebola",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "3",
+					"nota": 3,
 					"frete": "A combinar"
 				},
 				{
@@ -199,7 +199,7 @@
 					"name": "Azeitona",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				},
 				{
@@ -207,7 +207,7 @@
 					"name": "Cebola",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "4",
+					"nota": 4,
 					"frete": "A combinar"
 				},
 				{
@@ -215,7 +215,7 @@
 					"name": "Azeitona",
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
-					"nota": "5",
+					"nota": 5,
 					"frete": "A combinar"
 				}
 			]
