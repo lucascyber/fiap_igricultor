@@ -25,7 +25,10 @@ class _AuthPageState extends State<AuthPage> {
                     onChangePage: () => setState(() => _isLogin = false),
                     onLogin: () => Navigator.pushNamed(context, '/home'),
                   )
-                : SignUpForm(),
+                : SignUpForm(
+                    onChangePage: () => setState(() => _isLogin = true),
+                    onLogin: () => {},
+                  ),
           ),
         ],
       ),

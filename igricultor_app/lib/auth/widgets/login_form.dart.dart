@@ -19,6 +19,16 @@ class LoginForm extends StatelessWidget {
         key: _formKey,
         child: Column(
           children: <Widget>[
+            Text(
+              'LOGIN',
+              style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green.shade700),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
             SizedBox(
               height: 50,
               child: TextFormField(
@@ -43,7 +53,7 @@ class LoginForm extends StatelessWidget {
                     text: 'Não tem conta? ',
                     style: TextStyle(
                       color: Colors.grey.shade700,
-                      fontSize: 16,
+                      fontSize: 14,
                     ),
                   ),
                   TextSpan(
@@ -51,7 +61,7 @@ class LoginForm extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.green.shade700,
                       fontWeight: FontWeight.bold,
-                      fontSize: 16,
+                      fontSize: 14,
                     ),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
