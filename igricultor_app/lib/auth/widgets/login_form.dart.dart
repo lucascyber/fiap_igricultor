@@ -20,7 +20,7 @@ class LoginForm extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Text(
-              'LOGIN',
+              'ENTRE',
               style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
@@ -84,7 +84,7 @@ class LoginForm extends StatelessWidget {
                     fontSize: 16,
                   ),
                 ),
-                onPressed: () => {},
+                onPressed: () => onLogin(),
                 child: const Text('ENTRAR'),
               ),
             ),

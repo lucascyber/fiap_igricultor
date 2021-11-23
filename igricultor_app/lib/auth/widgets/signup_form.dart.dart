@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 class SignUpForm extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final VoidCallback onChangePage;
-  final VoidCallback onLogin;
+  final VoidCallback onSignUp;
 
   SignUpForm({
     Key? key,
     required this.onChangePage,
-    required this.onLogin,
+    required this.onSignUp,
   }) : super(key: key);
 
   @override
@@ -123,7 +123,7 @@ class SignUpForm extends StatelessWidget {
                     fontSize: 16,
                   ),
                 ),
-                onPressed: () => {},
+                onPressed: () => onSignUp(),
                 child: const Text('REGISTRAR'),
               ),
             ),

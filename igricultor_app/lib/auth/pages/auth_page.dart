@@ -27,7 +27,7 @@ class _AuthPageState extends State<AuthPage> {
                   )
                 : SignUpForm(
                     onChangePage: () => setState(() => _isLogin = true),
-                    onLogin: () => {},
+                    onSignUp: () => {},
                   ),
           ),
         ],
