@@ -12,6 +12,8 @@ class Product {
   final int rating;
   @JsonKey(name: 'frete')
   final String shipping;
+  final String type;
+  final String image;
 
   Product({
     required this.id,
@@ -20,6 +22,8 @@ class Product {
     required this.weight,
     required this.rating,
     required this.shipping,
+    required this.type,
+    required this.image,
   });
 
   factory Product.fromJson(Map<String, dynamic> json) =>
