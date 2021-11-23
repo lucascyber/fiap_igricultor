@@ -41,7 +41,7 @@ class _FairPageState extends State<FairPage> {
           .map(
             (product) => ProductCard(
               product: product,
-              onBuy: () => {},
+              onTap: () => {},
             ),
           )
           .toList(),

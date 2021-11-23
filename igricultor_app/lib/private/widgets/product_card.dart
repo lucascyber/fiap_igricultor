@@ -3,12 +3,14 @@ import 'package:igricultor_app/data/models/product.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
-  final VoidCallback onBuy;
+  final String? buttonTitle;
+  final VoidCallback onTap;
 
   const ProductCard({
     Key? key,
     required this.product,
-    required this.onBuy,
+    required this.onTap,
+    this.buttonTitle,
   }) : super(key: key);
 
   @override
@@ -66,8 +68,8 @@ class ProductCard extends StatelessWidget {
                         fontSize: 12,
                       ),
                     ),
-                    onPressed: () => onBuy(),
-                    child: const Text('COMPRAR'),
+                    onPressed: () => onTap(),
+                    child: Text(buttonTitle ?? 'COMPRAR'),
                   ),
                 )
               ],
