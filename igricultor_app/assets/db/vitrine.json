@@ -10,7 +10,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 4,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://euclidesdacunha.com/wp-content/uploads/2021/01/feijao-carioca.jpg"
 				},
 				{
 					"id": 2,
@@ -18,7 +20,9 @@
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1070x10000:format=jpg/path/s79b46c029f74af8a/image/i8ef3d6ce27214cc4/version/1600381919/image.jpg"
 				},
 				{
 					"id": 3,
@@ -26,7 +30,9 @@
 					"price": "R$ 3,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://imagens-cdn.canalrural.com.br/2018/06/soybeans-2039638_1920.jpg"
 				},
 				{
 					"id": 3,
@@ -34,7 +40,9 @@
 					"price": "R$ 8,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://www.abpm.org.br/wp-content/uploads/2014/03/21022008_gala_creditoabpm_fotofatima_e_gilberto-2845292.jpg"
 				},
 				{
 					"id": 3,
@@ -42,7 +50,9 @@
 					"price": "R$ 5,00",
 					"weight": "1 Kg",
 					"nota": 4,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://www.ceara.gov.br/wp-content/uploads/2021/09/201117_CEASA_TM00965.jpg"
 				},
 				{
 					"id": 3,
@@ -50,7 +60,9 @@
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://st2.depositphotos.com/5823990/11231/i/950/depositphotos_112319078-stock-photo-corn-grains-in-bag-with.jpg"
 				},
 				{
 					"id": 3,
@@ -58,7 +70,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 2,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://www.casaorganica.eco.br/image/cache/catalog/produtos/Hortifruti/alface-crespa-organico-organic-bio-hortifruti-feira-verdura-salada-produto-natual-1000x1000.jpg"
 				},
 				{
 					"id": 3,
@@ -66,7 +80,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://static3.tcdn.com.br/img/img_prod/628096/saco_termico_para_alimentos_tomate_2_3_20180805163624.jpg"
 				},
 				{
 					"id": 3,
@@ -74,7 +90,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://thumbs.dreamstime.com/b/cenouras-em-um-saco-de-serapilheira-23267459.jpg"
 				},
 				{
 					"id": 3,
@@ -82,7 +100,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"imag": "https://thumbs.dreamstime.com/z/cebola-amarela-org%C3%A2nica-no-saco-126033762.jpg"
 				},
 				{
 					"id": 3,
@@ -90,23 +110,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "R$ 17,00"
-				},
-				{
-					"id": 3,
-					"name": "Cebola",
-					"price": "R$ 1,00",
-					"weight": "1 Kg",
-					"nota": 4,
-					"frete": "R$ 17,00"
-				},
-				{
-					"id": 3,
-					"name": "Azeitona",
-					"price": "R$ 1,00",
-					"weight": "1 Kg",
-					"nota": 5,
-					"frete": "R$ 17,00"
+					"frete": "R$ 17,00",
+					"type": "fair",
+					"image": "https://img-cdn.oliveoiltimes.com/VcLj4nE-tGe_jBgW/w:auto/h:auto/q:75/https://www.oliveoiltimes.com/media/2018/03/lac3.jpg"
 				}
 			]
 		},
@@ -120,7 +126,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 4,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://agorarn.com.br/files/uploads/2019/03/Feira-Livre-Feij%C3%A3o-Cidade-de-Carna%C3%BAba-dos-Dantas-RN-267.jpg"
 				},
 				{
 					"id": 2,
@@ -128,7 +136,9 @@
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://www.goias.gov.br/images/2020/AAA_Arroz__Foto_Wenderson_Araujo_CNA.jpg"
 				},
 				{
 					"id": 3,
@@ -136,7 +146,9 @@
 					"price": "R$ 3,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://aviculturaonline.com/wp-content/uploads/2021/09/CLASSIFICACAO-CAPA.jpg"
 				},
 				{
 					"id": 3,
@@ -144,7 +156,9 @@
 					"price": "R$ 8,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://www.aen.pr.gov.br/modules/galeria/uploads/65040/news_interna_1PaulaFreitas_Mac807a_JFOGURA3.jpg"
 				},
 				{
 					"id": 3,
@@ -152,7 +166,9 @@
 					"price": "R$ 5,00",
 					"weight": "1 Kg",
 					"nota": 4,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://www.clinicalivon.com.br/clinicalivon/wp-content/uploads/2014/05/Bananas.jpg"
 				},
 				{
 					"id": 3,
@@ -160,7 +176,9 @@
 					"price": "R$ 2,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://revistacampoenegocios.com.br/wp-content/uploads/2020/10/hibrido-Pioneer3-560x420.jpeg"
 				},
 				{
 					"id": 3,
@@ -168,7 +186,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 2,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://t1.uc.ltmcdn.com/pt/images/2/4/0/img_como_cultivar_alface_americana_27042_orig.jpg"
 				},
 				{
 					"id": 3,
@@ -176,7 +196,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://www.3rlab.com.br/wp-content/uploads/2021/03/tomate-capa-1024x576.jpg"
 				},
 				{
 					"id": 3,
@@ -184,7 +206,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://blog4.mfrural.com.br/wp-content/uploads/2021/02/cenoura-plantio-comercial-1090x660.jpg"
 				},
 				{
 					"id": 3,
@@ -192,7 +216,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 3,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3143981:1633379351/Cebola.jpg"
 				},
 				{
 					"id": 3,
@@ -200,23 +226,9 @@
 					"price": "R$ 1,00",
 					"weight": "1 Kg",
 					"nota": 5,
-					"frete": "A combinar"
-				},
-				{
-					"id": 3,
-					"name": "Cebola",
-					"price": "R$ 1,00",
-					"weight": "1 Kg",
-					"nota": 4,
-					"frete": "A combinar"
-				},
-				{
-					"id": 3,
-					"name": "Azeitona",
-					"price": "R$ 1,00",
-					"weight": "1 Kg",
-					"nota": 5,
-					"frete": "A combinar"
+					"frete": "A combinar",
+					"type": "commerce",
+					"image": "http://ruralpecuaria.com.br/painel/img/noticias/170/noticias_1406056467.jpg"
 				}
 			]
 		}
