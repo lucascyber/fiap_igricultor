@@ -102,7 +102,7 @@
 					"nota": 3,
 					"frete": "R$ 17,00",
 					"type": "fair",
-					"imag": "https://thumbs.dreamstime.com/z/cebola-amarela-org%C3%A2nica-no-saco-126033762.jpg"
+					"image": "https://thumbs.dreamstime.com/z/cebola-amarela-org%C3%A2nica-no-saco-126033762.jpg"
 				},
 				{
 					"id": 3,
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"id": "2",
+			"id": 2,
 			"name": "Atacado",
 			"products": [
 				{
