@@ -12,6 +12,8 @@ class Product {
   final int rating;
   @JsonKey(name: 'frete')
   final String shipping;
+  @JsonKey(name: 'safra')
+  final String harvest;
   final String type;
   final String image;
 
@@ -22,6 +24,7 @@ class Product {
     required this.weight,
     required this.rating,
     required this.shipping,
+    required this.harvest,
     required this.type,
     required this.image,
   });

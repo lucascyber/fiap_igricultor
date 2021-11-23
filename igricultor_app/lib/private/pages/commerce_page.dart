@@ -43,7 +43,11 @@ class _CommercePageState extends State<CommercePage> {
               product: product,
               buttonTitle: 'NEGOCIAR',
               onBuy: () => {},
-              onTap: () => {},
+              onTap: () => Navigator.pushNamed(
+                context,
+                '/product-detail',
+                arguments: product,
+              ),
             ),
           )
           .toList(),
