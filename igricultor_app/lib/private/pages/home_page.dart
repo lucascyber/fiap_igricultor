@@ -51,6 +51,7 @@ class _HomePageState extends State<HomePage>
     ];
 
     return Scaffold(
+      backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
         backgroundColor: Colors.green.shade700,
         automaticallyImplyLeading: false,

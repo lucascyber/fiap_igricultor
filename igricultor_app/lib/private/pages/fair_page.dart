@@ -31,11 +31,17 @@ class _FairPageState extends State<FairPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return GridView.count(
+      crossAxisCount: 2,
+      crossAxisSpacing: 10,
+      mainAxisSpacing: 10,
+      childAspectRatio: 0.58,
+      padding: const EdgeInsets.all(16),
       children: _products
           .map(
             (product) => ProductCard(
               product: product,
+              onBuy: () => {},
             ),
           )
           .toList(),
