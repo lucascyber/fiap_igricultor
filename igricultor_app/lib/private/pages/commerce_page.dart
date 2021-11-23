@@ -42,6 +42,7 @@ class _CommercePageState extends State<CommercePage> {
             (product) => ProductCard(
               product: product,
               buttonTitle: 'NEGOCIAR',
+              onBuy: () => {},
               onTap: () => {},
             ),
           )

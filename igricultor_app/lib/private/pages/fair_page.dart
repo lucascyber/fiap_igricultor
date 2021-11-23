@@ -41,7 +41,14 @@ class _FairPageState extends State<FairPage> {
           .map(
             (product) => ProductCard(
               product: product,
-              onTap: () => {},
+              onBuy: () => {},
+              onTap: () => {
+                Navigator.pushNamed(
+                  context,
+                  '/product-detail',
+                  arguments: product,
+                )
+              },
             ),
           )
           .toList(),
