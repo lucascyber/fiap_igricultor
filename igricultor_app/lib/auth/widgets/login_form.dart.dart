@@ -19,10 +19,14 @@ class LoginForm extends StatelessWidget {
         key: _formKey,
         child: Column(
           children: <Widget>[
+            Image.asset('assets/images/ig.png'),
+            const SizedBox(
+              height: 20,
+            ),
             Text(
-              'ENTRE',
+              'Entre na sua conta',
               style: TextStyle(
-                  fontSize: 25,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.green.shade700),
             ),
