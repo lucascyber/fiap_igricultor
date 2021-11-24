@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage>
           ),
           leading: const FaIcon(FontAwesomeIcons.commentsDollar),
           onTap: () {
-            Navigator.pop(context);
+            Navigator.pushNamed(context, '/chat');
           },
         ),
         ListTile(
