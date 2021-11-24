@@ -25,7 +25,10 @@ class _CheckOutPageState extends State<CheckOutPage> {
         padding: const EdgeInsets.all(20),
         child: SafeArea(
           child: CheckOutBottomBar(
-            onBuy: () => {},
+            onBuy: () => Navigator.pushNamed(
+              context,
+              '/checkout-success',
+            ),
           ),
         ),
       ),
