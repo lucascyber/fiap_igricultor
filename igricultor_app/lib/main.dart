@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:igricultor_app/auth/pages/auth_page.dart';
+import 'package:igricultor_app/private/pages/chat_detail_page.dart';
 import 'package:igricultor_app/private/pages/home_page.dart';
 import 'package:igricultor_app/private/pages/product_detail_page.dart';
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const AuthPage(),
         '/home': (context) => const HomePage(),
         '/product-detail': (context) => const ProductDetailPage(),
+        '/chat-detail': (context) => const ChatDetailPage(),
       },
       theme: ThemeData(
         textTheme: GoogleFonts.latoTextTheme(

@@ -42,7 +42,11 @@ class _CommercePageState extends State<CommercePage> {
             (product) => ProductCard(
               product: product,
               buttonTitle: 'NEGOCIAR',
-              onBuy: () => {},
+              onBuy: () => Navigator.pushNamed(
+                context,
+                '/chat-detail',
+                arguments: product,
+              ),
               onTap: () => Navigator.pushNamed(
                 context,
                 '/product-detail',
