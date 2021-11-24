@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:igricultor_app/private/pages/commerce_page.dart';
 import 'package:igricultor_app/private/pages/fair_page.dart';
 
@@ -39,6 +40,63 @@ class _HomePageState extends State<HomePage>
 
   @override
   Widget build(BuildContext context) {
+    final drawerHeader = UserAccountsDrawerHeader(
+      decoration: BoxDecoration(
+        color: Colors.green.shade700,
+      ),
+      accountName: const Text(
+        'João da Silva',
+      ),
+      accountEmail: const Text(
+        'joao.silva@gmail.com',
+      ),
+      currentAccountPicture: CircleAvatar(
+        child: Container(
+          decoration: const BoxDecoration(
+            shape: BoxShape.circle,
+            image: DecorationImage(
+              image: NetworkImage(
+                'https://pbs.twimg.com/profile_images/606980557931737088/gLx5YTBA.jpg',
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+
+    final drawerItems = ListView(
+      children: [
+        drawerHeader,
+        ListTile(
+          title: const Text(
+            'Negociações',
+          ),
+          leading: const FaIcon(FontAwesomeIcons.commentsDollar),
+          onTap: () {
+            Navigator.pop(context);
+          },
+        ),
+        ListTile(
+          title: const Text(
+            'Pedidos',
+          ),
+          leading: const FaIcon(FontAwesomeIcons.shoppingBasket),
+          onTap: () {
+            Navigator.pushNamed(context, '/order-list');
+          },
+        ),
+        ListTile(
+          title: const Text(
+            'Sair',
+          ),
+          leading: const FaIcon(FontAwesomeIcons.signOutAlt),
+          onTap: () {
+            Navigator.pushNamed(context, '/');
+          },
+        ),
+      ],
+    );
+
     final List<HomeTabItem> tabs = [
       HomeTabItem(
         title: 'Feirinha',
@@ -52,9 +110,11 @@ class _HomePageState extends State<HomePage>
 
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
+      drawer: Drawer(
+        child: drawerItems,
+      ),
       appBar: AppBar(
         backgroundColor: Colors.green.shade700,
-        automaticallyImplyLeading: false,
         title: const Text('Market Place'),
         bottom: TabBar(
           controller: _tabController,

@@ -5,6 +5,7 @@ import 'package:igricultor_app/private/pages/chat_detail_page.dart';
 import 'package:igricultor_app/private/pages/check_out_page.dart';
 import 'package:igricultor_app/private/pages/checkout_success_page.dart';
 import 'package:igricultor_app/private/pages/home_page.dart';
+import 'package:igricultor_app/private/pages/order_list_page.dart';
 import 'package:igricultor_app/private/pages/product_detail_page.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/chat-detail': (context) => const ChatDetailPage(),
         '/checkout': (context) => const CheckOutPage(),
         '/checkout-success': (context) => const CheckoutSuccessPage(),
+        '/order-list': (context) => const OrderListPage(),
       },
       theme: ThemeData(
         textTheme: GoogleFonts.latoTextTheme(
