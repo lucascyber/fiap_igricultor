@@ -53,7 +53,10 @@ class _OrderListPageState extends State<OrderListPage> {
               bottom: 10,
             ),
             child: InkWell(
-              onTap: () => {},
+              onTap: () => Navigator.pushNamed(
+                context,
+                '/order-detail',
+              ),
               child: OrderListCard(
                 order: orders[index],
               ),
