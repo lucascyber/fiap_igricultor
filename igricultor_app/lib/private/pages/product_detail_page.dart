@@ -22,7 +22,14 @@ class ProductDetailPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: BuyForm(
-            onBuy: () => {},
+            onBuy: () => isFair
+                ? Navigator.pushNamed(
+                    context,
+                    '/checkout',
+                    arguments: product,
+                  )
+                : Navigator.pushNamed(context, '/chat-detail',
+                    arguments: product),
             isFair: isFair,
           ),
         ),

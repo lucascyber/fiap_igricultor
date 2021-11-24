@@ -41,7 +41,11 @@ class _FairPageState extends State<FairPage> {
           .map(
             (product) => ProductCard(
               product: product,
-              onBuy: () => {},
+              onBuy: () => Navigator.pushNamed(
+                context,
+                '/checkout',
+                arguments: product,
+              ),
               onTap: () => {
                 Navigator.pushNamed(
                   context,

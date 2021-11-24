@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:igricultor_app/data/models/product.dart';
 
 class ProductCard extends StatelessWidget {
@@ -73,7 +74,25 @@ class ProductCard extends StatelessWidget {
                         ),
                       ),
                       onPressed: () => onBuy(),
-                      child: Text(buttonTitle ?? 'COMPRAR'),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(buttonTitle ?? 'COMPRAR'),
+                          const SizedBox(width: 8),
+                          if (buttonTitle == null) ...[
+                            const FaIcon(
+                              FontAwesomeIcons.shoppingBasket,
+                              size: 16,
+                            ),
+                          ] else ...[
+                            const FaIcon(
+                              FontAwesomeIcons.commentsDollar,
+                              size: 18,
+                            ),
+                          ]
+                        ],
+                      ),
                     ),
                   )
                 ],
